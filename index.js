@@ -17,7 +17,7 @@ document.getElementById("confirmForm").addEventListener("submit", function(e) {
   mensagem.classList.remove("hidden");
 
   // Criar mensagem para WhatsApp
-  const texto = `Olá!. Estou confirmando presença no aniversário da Liz Vitória 🎉🥳`;
+  const texto = `Olá! Aqui é ${nome}. Estou confirmando presença para ${qtd} pessoa(s) no aniversário da Liz Vitória 🎉🥳`;
   const url = `https://wa.me/5511978253599?text=${encodeURIComponent(texto)}`;
 
   // Redireciona diretamente para o WhatsApp
